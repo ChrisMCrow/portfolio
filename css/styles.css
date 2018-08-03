@@ -1,6 +1,5 @@
 body {
   font-family: verdana;
-  font-size: 16px;
 }
 
 a {
@@ -39,9 +38,9 @@ a:hover {
   color: #4484CE;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #0f1626;
-    background-color: #ff533d;
+.nav-pills > li > a:hover {
+  color: #fff;
+  background-color: #ff533d;
 }
 
 #aboutme {
@@ -79,6 +78,10 @@ h1 {
 
 h4 {
   border-bottom: 2px solid #ab987a;
+}
+
+.right {
+  text-align: right;
 }
 
 #headshot {
@@ -138,20 +141,19 @@ h4 {
 
 
 #mywork img {
-  float: left;
-  width: 300px;
   margin: 25px 20px 50px 20px;
   border: 1px solid #0f1626;
   border-radius: 5px;
 }
 
 .projects {
-  height: 270px;
+  height: auto;
   background-color: #f5f5f5;
   border: 2px solid #ab987a;
   border-radius: 5px;
   margin: 20px auto 20px auto;
-  padding-right: 20px;
+  padding: 0px 15px 0px 15px;
+  overflow: auto;
 }
 
 #contactme h1 {
@@ -172,6 +174,14 @@ ol {
   margin-top: 50px;
 }
 
+.connect {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #0f1626
+}
+
 .important {
   font-size: 24px;
   color: #ab987a;
@@ -179,4 +189,24 @@ ol {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 1px 1px 0px #0f1626;
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    font-size: 16px;
+  }
+  #mywork img {
+    float: left;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 24px;
+  }
+  #mywork img {
+    float: left;
+    width: 200px;
+  }
 }

@@ -5,6 +5,7 @@
     <title>Chris Crow Portfolio</title>
     <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
@@ -12,13 +13,13 @@
 
     <!--Top Navigation Bar-->
     <div class="container" id="navbar">
-      <div class="row" id="navrow">
+      <div class="row">
         <div class="col-sm-6">
           <img src="img/logo.png" alt="Chris Crow">
         </div>
         <div class="col-sm-6">
-          <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#aboutme">About Me</a></li>
+          <ul class="nav navbar-nav nav-pills">
+            <li role="presentation"><a href="#aboutme">About Me</a></li>
             <li role="presentation"><a href="#myworkborder">My Work</a></li>
             <li role="presentation"><a href="#contactmeborder">Contact Me</a></li>
           </ul>
@@ -35,7 +36,7 @@
         </div>
         <h4 class="important">My Field</h4>
         <p>I am currently enrolled in Epicodus Computer Programming Bootcamp and plan to begin work in the technology industry in early 2019. I’m passionate about design, meticulous with detail, always striving toward greater efficiency, and love working with and leading people.</p>
-        <h4 class="important">My Background</h4>
+        <h4 class="important right">My Background</h4>
         <p>My background and bachelors degree are in music technology. I’ve spent my first ten years of work experience leading and motivating teams of volunteers in religious non-profit organizations, producing records, as well as traveling and performing as a musician and entertainer.</p>
         <p>After ten years, I’m ready to embrace some new challenges and expand my technical abilities beyond music recording and production. I hope to bring my experience in leadership as well as my newfound technical skills to the booming technology industry.</p>
         <h4 class="important">My Interests</h4>
@@ -54,36 +55,36 @@
     </div>
 
     <!--My Work-->
-    <div class="container" id="mywork">
+    <div class="container-fluid" id="mywork">
       <h1><strong>MY WORK</strong></h1>
       <div class="content">
         <div class="row">
 
           <div class="col-md-6 workexamples">
             <div class="projects">
-              <img src="img/wikipedia.png" alt="Wikipedia webpage screenshot">
-              <h3><a href="https://github.com/ChrisMCrow/wikipedia-home-page">Wikipedia Repository</a></h3>
-              <p>Our task here was to recreate the look of wikipedia.org's homepage in just a few short hours.</p>
+              <a href="http://chrismcrow.github.io/wikipedia-home-page/index.html"><img src="img/wikipedia.png" alt="Wikipedia webpage screenshot"></a>
+              <h3><a href="https://github.com/ChrisMCrow/wikipedia-home-page">Wikipedia Repo</a></h3>
+              <p>Our task here was to recreate the look of wikipedia.org's homepage in just a few short hours. we used <strong>HTML, CSS, and Bootstrap</strong></p>
             </div>
 
             <div class="projects">
-              <img src="img/animal-shelter.png" alt="Animal Shelter webpage screenshot">
-              <h3><a href="https://github.com/ChrisMCrow/animal-shelter">Animal Shelter</a></h3>
-              <p>In this project exercise, we continued to learn HTML and CSS, creating a website for pet adoptions.</p>
+              <a href="http://chrismcrow.github.io/animal-shelter/index.html"><img src="img/animal-shelter.png" alt="Animal Shelter webpage screenshot"></a>
+              <h3><a href="https://github.com/ChrisMCrow/animal-shelter">Animal Shelter Repo</a></h3>
+              <p>In this project exercise, we continued to learn <strong>HTML and CSS</strong>, creating a website for pet adoptions.</p>
             </div>
           </div>
 
           <div class="col-md-6 workexamples">
             <div class="projects">
-              <img src="img/visit-vancouver.png" alt="Visit Vancouver webpage screenshot">
-              <h3><a href="https://github.com/ChrisMCrow/vacation">Visit Vancouver</a></h3>
-              <p>This was our first introduction to Bootstrap and discovering some of its functionality. We experimented with various componenets and CSS functions.</p>
+              <a href="http://chrismcrow.github.io/vacation/index.html"><img src="img/visit-vancouver.png" alt="Visit Vancouver webpage screenshot"></a>
+              <h3><a href="https://github.com/ChrisMCrow/vacation">Visit Vancouver Repo</a></h3>
+              <p>This was our first intro to <strong>Bootstrap</strong> and discovering its functionality. We experimented with several <strong>HTML & CSS</strong> functions.</p>
             </div>
 
             <div class="projects">
-              <img src="img/favorite-band.png" alt="Favorite Band webpage screenshot">
-              <h3><a href="https://github.com/ChrisMCrow/favorite-band">Favorite Band</a></h3>
-              <p>This was our third day of class and we're beginning to experiment with CSS, floats, and images.</p>
+              <a href="http://chrismcrow.github.io/favorite-band/favorite-band.html"><img src="img/favorite-band.png" alt="Favorite Band webpage screenshot"></a>
+              <h3><a href="https://github.com/ChrisMCrow/favorite-band">Favorite Band Repo</a></h3>
+              <p>This was our third day of class and we're beginning to experiment with <strong>HTML, CSS,</strong> floats, and images.</p>
             </div>
           </div>
         </div>
@@ -105,7 +106,7 @@
       <h1><strong>CONTACT ME</strong></h1>
       <div class="content">
         <img src="img/family.jpg" alt="My family">
-        <h3> Here are a few different ways you can connect with me:</h3>
+        <h3 class="connect"> Here are a few different ways you can connect with me:</h3>
         <ol>
           <li><span class="important">Social Media</span>. You can connect with me on any of these networks:</li>
             <ul>
