@@ -1,6 +1,6 @@
 # _Chris Crow - Portfolio_
 
-#### _My Github portfolio. August 3, 2018_
+#### _My Web Design Portfolio. August 3, 2018_
 
 #### By _**Chris Crow**_
 
@@ -12,10 +12,11 @@ _This is my Github portfolio. This webpage was created to demonstrate my knowled
 
 * _Clone this repository_
 * _Open the index.html file in a web browser_
+* _or visit http://chrismcrow.github.io/portfolio/index.html
 
 ## Known Bugs
 
-_xxx_
+_none_
 
 ## Support and contact details
 
